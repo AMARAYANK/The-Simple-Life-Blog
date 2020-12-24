@@ -196,4 +196,20 @@ nav a:focus {
     .article-recent-secondary {
         width: 30%;
     }
+    
+    .article-featured {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .article-image {
+        order: -2;
+        min-height: 250px;
+        object-fit: cover;
+        /* object-position: left; */
+    }
+    
+    .article-info {
+        order: -1;
+    }
 }
